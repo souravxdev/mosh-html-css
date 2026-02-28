@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2-styling-the-form.css">
+</head>
+<body>
+    <form>                                              <!-- Every form element has an "action" attribute for submitting the form -->
+        <div class="form-group">
+            <label for="name">Name</label>              <!-- Every label element has a for attribute which has the same value of id of an input,
+                                                             to bind that label with the input field, if we click in the lablel, 
+                                                             the input field will be focused.
+                                                             Labels make forms more accessible and more usable.
+                                                        -->
+            <input id="name" type="text">               <!-- Inside every form, we have one or more input fields also called form controlls, 
+                                                             Every input element has a type attribute,
+                                                             If it's type is text, we get a single line text field,
+                                                             Before input field, we should have a label to describe the input field
+                                                        -->
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email">
+        </div>
+
+        <button type="submit">Register</button>         <!-- Button has type attribute,
+                                                            - submit is used to submit the form,
+                                                            - reset is used to clearing the input fields
+                                                        -->
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
