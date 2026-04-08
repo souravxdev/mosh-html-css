@@ -158,9 +158,49 @@
 - `https://jigsaw.w3.org/css-validator/` - Standard CSS validator - 3 methods (URL, File Upload, Direct Input)
 - If web pages aren't displayed as expected, always start with a quick validation because this can often point you in the right direction.
 
-## HTML Basics
+## The Head Section
 
 - `head` - We use the head section to give browsers and search engines information about the web page.
 - `<meta charset="UTF-8" />` - This meta element is used for defining the character set.
 - `Character Set` - Computers don't understand characters like ABC, they only understand numbers which are represented in the binary format, zeros and ones, using a character set we can map a character to a numeric value.
-- `ASCII` - American Standard Code for Information Interchange - ASCII can only represent the characters in the English language
+- `ASCII` - American Standard Code for Information Interchange - ASCII can only represent the characters in the English language.
+- `UTF-8` - This character set can represent almost all characters in the world.
+- `Viewport` - Viewport is the visible area of a web page.
+- `content="width=device-width, initial-scale=1.0"` - Defining the initial width and zoom factor for the viewport.
+- `<meta name="keywords" content="HTML, CSS" />` - Defining keywords on a web page. In the past these keywords were heavily used for search engine optimization.
+- `<meta name="description" content="A simple HTML page..." />` - Defining a description for this page. This will appear on Google or other search engines when someone searches for a website. With this meta element, we can give information about a web page.
+
+## Text
+
+- `p` - The p element represents a paragraph.
+- `em` - The em element represents stress emphasis of its contents. Browsers display emphasized content in italic. The purpose of the em element is to emphasize content in our HTML document and this helps search engines extract important content in our documents.
+- `i` - Previously this element was used to make text italic, but this element is considered deprecated because HTML is not meant for styling. So we don't use the i element to display content as italic. `This element is now used for icons`.
+- `strong` - The strong element represents strong importance, seriousness, or urgency for its contents. By default strong elements are displayed as bold.
+- `b` - To make text bold. This element is considered deprecated because styling should be done in CSS and not in HTML.
+- In HTML we have 6 heading elements, H1, H2, H3, H4, H5 and H6.
+- Heading 1 represents the most important heading and heading 6 represents the least important heading. We should use these headings to create a hierarchy, not for styling text. Every web page should have one and only one h1 element. After we use h1, then we should use h2. We should not jump to h4.
+- The better we can represent the structure of our document using HTML, the better search engines can read and understand our content.
+
+## Entities
+
+- Some characters are reserved in HTML and to display them we have to use a special notation.
+- To solve this problem, we're going to use HTML entities.
+- All these entities start with an ampersand(&) and end with a semicolon(;), in between these two characters, we type a few characters that determine the type of the HTML entity.
+- HTML Entity List: https://www.w3schools.com/html/html_entities.asp
+- Most common used entities:
+
+1. `&lt;` - <
+2. `&gt;` - >
+3. `&copy;` - ©
+4. `&nbsp;` - Non-Breaking Space - If we want to make sure that any two words are always together without breaking for line break, we have to replace the regular space between those two words with a non breaking space which is an HTML entity.
+
+## Hyperlinks
+
+- What is the difference between a link and a hyperlink?
+- A link is just an address, a URL, the location of the target page. A hyperlink is the element that the user can click on to navigate to that target page.
+- Almost every web page on the Internet has links to other pages or websites. To create these links we use the anchor element.
+- `a` - Anchor element - If the a element has an href attribute, then it represents a hyperlink (a hypertext anchor) labeled by its contents.
+- `href` - Every anchor element should have an href(hypertext reference) attribute. It basically means a URL or a link. We can use a relative or an absolute URL.
+- `Relative URL` - A relative URL starts from the current page.
+- `Absolute URL` - An absolute URL start with a / and this represents the root of our project.
+- `download` - This attribute instructs browsers to download a URL instead of navigating to it, so the user will be prompted to save it as a local file.
