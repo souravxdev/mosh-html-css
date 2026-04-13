@@ -140,7 +140,7 @@
 - `alt` - Attribute to give the browser some text to display in case the image cannot be displayed.
 - `Elements with opening and closing can have child elements.`
 - `Self closing elements can't have child elements.`
-- `p` - Paragrapg tag - Text element
+- `p` - Paragraph tag - Text element
 
 ## CSS Very Basics
 
@@ -204,3 +204,12 @@
 - `Relative URL` - A relative URL starts from the current page.
 - `Absolute URL` - An absolute URL start with a / and this represents the root of our project.
 - `download` - This attribute instructs browsers to download a URL instead of navigating to it, so the user will be prompted to save it as a local file.
+
+## Images
+
+- unsplash.com - Where we can find a lot of beautiful and freely usable images.
+- Embedding images at different sizes depends on the device. On mobile devices we want to serve a smaller image and on desktop computers we want to serve a larger image.
+- We have to give images a descriptive name. When we provide descriptive names for our images, search engines can better understand and index our pages.
+- `alt` attribute - To make web page accessible to visually impaired people. Also we help search engines read this text and understand what we're providing here. Lastly, if this image cannot be loaded for some reason, the alternative text is shown.
+- `object-fit: cover` - Property in CSS. Ee can set object fit to cover, so the image covers its containing box.
+- `Conceptually, there is a box around every element in an HTML document.`
