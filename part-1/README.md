@@ -227,3 +227,16 @@
 - caniuse.com - On this website we can find out how different browsers support various HTML and CSS features.
 - Inside the video element, we can provide our fall back text and say your browser doesn't support videos.
 - `audio` - Element for adding audio. It's exactly like the video element with all it's attributes.
+
+## Lists
+
+- We have three types of list elements. `ul`, `ol`, and `dl`
+- `ul` - Unordered list. We use this element whenever we want to show a list of items where the ordered doesn't matter. A common application of this element is in implementing navigation menus. We can use unordered list for listing any type of objects where the order doesn't matter. We can list images, products in a shopping cart and so on.
+- `li` - List item.
+- By default, unordered list items are displayed using bullet points. We can change their shape, we can change circles to squares or we can remove them.
+- We can also nest list to create a hierarchy.
+- `li*3` - Creating multiple elements at a time. This is called Xen coding.
+- `ol` - Ordered list. We use this lists where the order of items matter.
+- `dl` - Description list. We use description lists for implementing glossaries or displaying metadata so we can have a term and some details about that term.
+- `dt` - Description term.
+- `dd` - Description details.
