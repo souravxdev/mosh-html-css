@@ -213,3 +213,17 @@
 - `alt` attribute - To make web page accessible to visually impaired people. Also we help search engines read this text and understand what we're providing here. Lastly, if this image cannot be loaded for some reason, the alternative text is shown.
 - `object-fit: cover` - Property in CSS. Ee can set object fit to cover, so the image covers its containing box.
 - `Conceptually, there is a box around every element in an HTML document.`
+
+## Video & Audio
+
+- sketch.com - Where we can see a video showcasing how this tool works.
+- pexels.com - Where we can find beautifu free images and videos.
+- `video` - We use video element to embedded videos in web page.
+- We don't have to set the height, the browser will automatically calculate the height based on the aspect ratio of the video.
+- `controls` attribute - This attribute is what we call a boolean attribute.
+- `The presence of a boolean attribute represents the true value and its absence represents the false value.`
+- `autoplay` - When we apply this boolean attribute, the video automatically starts when our page is loaded.
+- `loop` - When we apply this boolean attribute, the video will automatically loop.
+- caniuse.com - On this website we can find out how different browsers support various HTML and CSS features.
+- Inside the video element, we can provide our fall back text and say your browser doesn't support videos.
+- `audio` - Element for adding audio. It's exactly like the video element with all it's attributes.
