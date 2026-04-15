@@ -186,7 +186,7 @@
 - Some characters are reserved in HTML and to display them we have to use a special notation.
 - To solve this problem, we're going to use HTML entities.
 - All these entities start with an ampersand(&) and end with a semicolon(;), in between these two characters, we type a few characters that determine the type of the HTML entity.
-- HTML Entity List: https://www.w3schools.com/html/html_entities.asp
+- [HTML Entity List](https://www.w3schools.com/html/html_entities.asp)
 - Most common used entities:
 
 1. `&lt;` - <
@@ -269,3 +269,18 @@
 - `Block level elements always start on a new line and fill up the entire width of the page.`
 - `span` - We have another generic container element called the `span` element which is often used for styling text.
 - `Inline elements not going to take up the entire width of the page.`
+
+## Semantic Elements
+
+- `div`'s and `span`'s are general purpose containers.
+- HTML5 introduced a few more container elements that are more descriptive or meaningful. We refer to these as semantic elements. So wherever possible we should use these new elements instead of the generic containers like `div` or `span`, because this helps search engines better understand our pages and what they contain.
+- `article`, `figure`, `mark`, `time` - Semantic elements in HTML5.
+- [List of all semantic elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- `article` - In HTML5 we have this element for representing articles. If we replace `div` with the `article` element, we're making our markup more meaningful to search engines.
+- This `article` doesn't have to be a blog post or a newspaper article. It can be any independent self content piece of content. For example, it could be a forum post, user submitted comments, reviews, product cards and so on. An article can contain one or more figures like images, tables, lists and so on.
+- `figure` - We can improve page structure and make it more meaningful by wrapping `img` element inside a `figure` element to tell search engines that this is a figure and not just a regular image.
+- The `figure` element is just a container for figures. It doesn't have any visual characteristics.
+- `figcaption` - `figure` element can have a caption using `figcaption`.
+- `mark` - In HTML5 we have a semantic element for highlighting anything, that is the `mark` element.
+- `time` - We use this element to wrap our date & time in a web page. By using `time` our date time doesn't have any visual characteristic. But our HTML markup better represent the date-time structure of this page.
+- `datetime` attribute - By using this attribute, we can optionally set the daytime attribute to a machine readable daytime. There's the format that we have to follow. 4 digits for the year, 2 digits for the month, 2 digits for the day. Now if we have a time, we add space and type the time on 24 hour time clock.
