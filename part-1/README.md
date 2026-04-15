@@ -258,3 +258,14 @@
 - What are the differences between header and data cells in terms of styling?
 - Answer: In header cells, by default our text is bold and aligned in the center. In contrast, in data cells our text is aligned to the left.
 - `text-align: left` - Text align to the left.
+
+## Containers
+
+- Quite often we need to Group A bunch of elements for styling purposes. Such as, navigation bar is a container for the elements of the web page.
+- Hero unit has a background image, a heading, some text and a couple links.
+- In HTML we have a few different container elements.
+- The one that is most commonly used is the `div` or division element. This element doesn't have any visual appearance. Ee see nothing because this is purely a container element.
+- `div` element is a block level element.
+- `Block level elements always start on a new line and fill up the entire width of the page.`
+- `span` - We have another generic container element called the `span` element which is often used for styling text.
+- `Inline elements not going to take up the entire width of the page.`
