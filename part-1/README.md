@@ -240,3 +240,21 @@
 - `dl` - Description list. We use description lists for implementing glossaries or displaying metadata so we can have a term and some details about that term.
 - `dt` - Description term.
 - `dd` - Description details.
+
+## Tables
+
+- `table` - Element for representing tabular data. In table we may have one or more rows.
+- `tr` - To define a row, we use the tr or table row element. In this element we can have one or more cells which can be data cells or header cells.
+- `td` - To define a data cell, we use td element that is short for table data cell.
+- `tr>td*2` - Xen coding. - Inside a TR element, we want two TD elements.
+- `border` - CSS style. We have to give 3 values to a border. Thickness, border style & color.
+- `Duplication in code is bad.`
+- `DRY principle - Don't repeat yourself.`
+- `border-collapse: collapse` - This will collapse the borders in neighboring cells.
+- `th` - To define a header cell, use the TH element.
+- We can improve it and make it more meaningful to search engines and screen readers. We want to tell search engines that in this table we have two sections, A header and a body. We're going to use the `thead` and `tbody` elements.
+- `colspan` - Col span is short for column span and it determines how many columns this cell should expand to. The default value is 1.
+- `tfoot` - We can add a footer to a table. We can have multiple rows in the footer to summarize data in different ways.
+- What are the differences between header and data cells in terms of styling?
+- Answer: In header cells, by default our text is bold and aligned in the center. In contrast, in data cells our text is aligned to the left.
+- `text-align: left` - Text align to the left.
