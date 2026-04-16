@@ -284,3 +284,17 @@
 - `mark` - In HTML5 we have a semantic element for highlighting anything, that is the `mark` element.
 - `time` - We use this element to wrap our date & time in a web page. By using `time` our date time doesn't have any visual characteristic. But our HTML markup better represent the date-time structure of this page.
 - `datetime` attribute - By using this attribute, we can optionally set the daytime attribute to a machine readable daytime. There's the format that we have to follow. 4 digits for the year, 2 digits for the month, 2 digits for the day. Now if we have a time, we add space and type the time on 24 hour time clock.
+
+## Structure a Web Page
+
+- `Semantic container elements.`
+- Most web pages have at least three building blocks, a `header`, the `main` content and a `footer`.
+- We can have a sidebar for advertising or other content that is not directly related to the main content. So, after the main element we can have an `aside` element.
+- In the header, quite often we have a `nav` bar with a list of menu items. In the footer we can have another `nav` element with an `ul` list. We can have multiple navigation elements on the same page.
+- In the main area we may have multiple `section`s. With the section element we can group related content.
+- Every section should have a heading, which is quite often an H2, if we don't supply this heading and validate our web page, we'll get a validation error.
+- `article` - With the article element we can represent any independent self content piece of content.
+- We have multiple articles inside a section, but we can also have multiple sections inside an article.
+- We use the `main` element to represent the main content of the page, and that means every page can have only one main element.
+- We use the `section` element to group related content.
+- We use the `header` element to represent introductory content which can belong to the page or a section or an article.
