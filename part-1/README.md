@@ -298,3 +298,11 @@
 - We use the `main` element to represent the main content of the page, and that means every page can have only one main element.
 - We use the `section` element to group related content.
 - We use the `header` element to represent introductory content which can belong to the page or a section or an article.
+
+## Providing CSS
+
+- There are three different ways to provide styles.
+- Embedded CSS - On HTML head.
+- External CSS - On HTML head linked an external css with `link` tag.
+- Inline CSS - Every HTML element has `style` attribute.
+- Embedded CSS has two problems, 1. they're not scalable & 2. it violates a very important principle in computer science called separation of concerns.
